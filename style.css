@@ -1,0 +1,214 @@
+/*
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+*/
+
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'intelone-mono-font-family-regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/intelone-mono-font-family-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    width: 1280px;
+    margin: 0 auto;
+    padding:40px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.sub{
+    background-color:rgb(148, 187, 93,0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    flex-direction: row;
+}
+
+#intro{
+    display: flex;
+}
+
+img{
+    background-color: rgb(255, 255, 255,0.3);
+    border-radius: 200px;
+    height: 200px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#name{
+    padding-top:250px;
+    margin-bottom: 30px;
+}
+
+#name h3{
+    /*상 우 하 좌*/
+    margin : 5px 0px 0px 30px;
+    padding: 0;
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+}
+
+#name p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #666666;
+    font-family: 'GmarketSansLight';
+}
+
+#box{
+    width: 400px;
+    background-color: rgb(255, 255, 255,0.3);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    word-break: keep-all;
+
+}
+
+#line{
+    border: 20px black;
+}
+
+p{
+   text-align: center;
+}
+
+#myself{
+    font-family: 'GmarketSansLight';
+    font-size: 15px;
+}
+
+h3{
+    font-family: 'GmarketSansMedium';
+     margin : 20px 0px 5px 0px;
+}
+
+
+#stack div{
+    text-align: center;
+}
+
+#stack i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sns a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#link{
+    text-align: center;
+    font-family: 'intelone-mono-font-family-regular';
+}
+
+#pjname a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    margin-top : 10px;
+}
+
+#pjname p{
+    font-family: 'GmarketSansMedium';
+}
+
+#pj h5{
+    font-family: 'GmarketSansMedium';
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+#stack_pj  li{
+    font-family: 'intelone-mono-font-family-regular';
+    background-color: rgb(255, 255, 255,0.5);
+    font-size: 15px;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+#pj p{
+    font-family: 'GmarketSansLight';
+}
+
+#pj summary{
+    font-family: 'GmarketSansLight';
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#pj details li {
+    list-style: none;
+    font-size: 12px;
+    font-family: 'intelone-mono-font-family-regular';
+    background-color: rgb(255, 255, 255,0.5);
+
+    margin-left: 10px;
+    margin-top : 10px;
+}
+
+#Copyrignt{
+    font-family: 'intelone-mono-font-family-regular';
+    margin-top: 20px;
+    font-size: 10px;
+    color: #66666689;
+}
